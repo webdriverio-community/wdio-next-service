@@ -70,8 +70,8 @@ If your config is set up accordingly, the service will set the [`baseUrl`](https
 
 ```ts
 await browser.url('/')
-await expect(browser).toHaveTitle('Welcome to Next.js!')
-await expect($('aria/Welcome to Next.js!')).toBePresent()
+await expect(browser).toHaveTitle('Create Next App')
+await expect($('aria/Create Next App')).toBePresent()
 ```
 
 ## Options
