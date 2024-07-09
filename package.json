@@ -4,6 +4,9 @@
   "description": "This service helps you to launch your application when using Next.js.",
   "author": "Christian Bromann <mail@bromann.dev>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/webdriverio-community/wdio-next-service/issues"
   },
