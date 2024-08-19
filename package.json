@@ -63,7 +63,7 @@
     "@wdio/cli": "9.0.4",
     "@wdio/local-runner": "9.0.0-alpha.369",
     "@wdio/mocha-framework": "9.0.0-alpha.369",
-    "@wdio/spec-reporter": "9.0.0-alpha.369",
+    "@wdio/spec-reporter": "9.0.4",
     "@wdio/types": "9.0.4",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
