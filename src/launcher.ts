@@ -4,6 +4,7 @@ import cp, { type ChildProcess } from 'node:child_process'
 
 import logger from '@wdio/logger'
 import getPort from 'get-port'
+import { resolve } from 'import-meta-resolve'
 
 import { pkg } from './constants.js'
 import { lookupNextConfig } from './utils.js'
@@ -41,7 +42,12 @@ export class NuxtServiceLauncher {
         )
 
         log.info(`Start Next.js dev server on ${this.#options.hostname}:${port}`)
-        const startServerPath = import.meta.resolve('next/dist/server/lib/start-server.js')
+
+        /**
+         * make sure to resolve Next module from the path where the next.config.mjs file is located
+         */
+        const resolveFromParent = `${url.pathToFileURL(path.dirname(nextjsConfigPath)).href}/node_modules`
+        const startServerPath = resolve('next/dist/server/lib/start-server.js', resolveFromParent)
         await new Promise<void>((resolve) => {
             let resolved = false
             this.#server = cp.fork(url.fileURLToPath(startServerPath), {
