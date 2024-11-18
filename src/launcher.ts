@@ -67,11 +67,11 @@ export class NuxtServiceLauncher {
                 isDev
             }
 
-            this.#server.on('message', (msg: any) => {
+            this.#server.on('message', (msg: unknown) => {
                 if (msg && typeof msg === 'object') {
-                    if (msg.nextWorkerReady && this.#server) {
+                    if ('nextWorkerReady' in msg && msg.nextWorkerReady && this.#server) {
                         this.#server.send({ nextWorkerOptions })
-                    } else if (msg.nextServerReady && !resolved) {
+                    } else if ('nextServerReady' in msg && msg.nextServerReady && !resolved) {
                         resolved = true
                         resolve()
                     }
