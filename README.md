@@ -1,4 +1,4 @@
-<p align="center">
+<p style="text-align:center;">
     <a href="https://webdriver.io/">
         <img alt="WebdriverIO loves Next.js" src="https://raw.githubusercontent.com/webdriverio-community/wdio-next-service/main/.github/assets/banner.png">
     </a>
@@ -96,6 +96,13 @@ Port to start the server on.
 
 Type: `number`<br />
 Default: `process.env.NUXT_PORT || config.devServer.port`
+
+### `turbopack`
+
+Whether to use the new [turbopack](https://nextjs.org/docs/app/api-reference/turbopack) incremental bundler. Requires NextJS 15 and above.
+
+Type: `boolean`<br />
+Default: `false`
 
 ----
 

@@ -41,7 +41,9 @@ export class NuxtServiceLauncher {
             || await getPort()
         )
 
-        log.info(`Start Next.js dev server on ${this.#options.hostname}:${port}`)
+        const isTurbopack = this.#options.turbopack ?? false
+
+        log.info(`Start Next.js dev server on ${this.#options.hostname}:${port}${isTurbopack? ' with turbopack' : ''}`)
 
         /**
          * make sure to resolve Next module from the path where the next.config.mjs file is located
@@ -56,7 +58,8 @@ export class NuxtServiceLauncher {
                 env: {
                     ...process.env,
                     WDIO_NEXT_SERVICE: '1',
-                    NEXT_PRIVATE_WORKER: '1'
+                    NEXT_PRIVATE_WORKER: '1',
+                    ...(isTurbopack ? { TURBOPACK: '1' } : undefined),
                 }
             })
 
