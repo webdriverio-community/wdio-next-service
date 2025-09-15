@@ -96,7 +96,7 @@ Default: `localhost`
 Port to start the server on.
 
 Type: `number`<br />
-Default: `process.env.NUXT_PORT || config.devServer.port`
+Default: `process.env.NEXT_PORT || config.devServer.port`
 
 ### `turbopack`
 
