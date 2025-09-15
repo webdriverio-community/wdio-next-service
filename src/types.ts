@@ -19,4 +19,9 @@ export interface NextServiceOptions {
      * @default false
      */
     turbopack?: boolean
+    /**
+     * A list of paths to prefetch after server start. This can help to pre-warm the server and prevent the first test from timing out while it waits for compilation.
+     * @default []
+     */
+    prefetch?: string[]
 }
