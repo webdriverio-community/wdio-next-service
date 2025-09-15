@@ -43,7 +43,8 @@ export const config = {
     // ...
     services: [
         ['next', {
-            rootDir: './packages/next-app'
+            rootDir: './packages/next-app',
+            prefetch: ['/', '/about', '/contact']
         }]
     ],
     // ...
@@ -103,6 +104,13 @@ Whether to use the new [turbopack](https://nextjs.org/docs/app/api-reference/tur
 
 Type: `boolean`<br />
 Default: `false`
+
+### `prefetch`
+
+A list of paths to prefetch after server start. This can help to pre-warm the server and prevent the first test from timing out while it waits for compilation.
+
+Type: `string[]`<br />
+Default: `[]`
 
 ----
 
