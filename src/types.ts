@@ -11,7 +11,7 @@ export interface NextServiceOptions {
     hostname?: string
     /**
      * port to start the server on (random port picked if none provided)
-     * @default process.env.NUXT_PORT || config.devServer.port
+     * @default process.env.NEXT_PORT || config.devServer.port
      */
     port?: number
     /**
@@ -19,4 +19,9 @@ export interface NextServiceOptions {
      * @default false
      */
     turbopack?: boolean
+    /**
+     * A list of paths to prefetch after server start. This can help to pre-warm the server and prevent the first test from timing out while it waits for compilation.
+     * @default []
+     */
+    prefetch?: string[]
 }

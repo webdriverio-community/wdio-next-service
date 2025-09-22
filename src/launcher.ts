@@ -41,7 +41,11 @@ export class NuxtServiceLauncher {
             || await getPort()
         )
 
+        const wdioBaseURL = `http://${this.#options.hostname}:${port}`
+
         const isTurbopack = this.#options.turbopack ?? false
+
+        const shouldPrefetch = Array.isArray(this.#options.prefetch) && this.#options.prefetch.length > 0
 
         log.info(`Start Next.js dev server on ${this.#options.hostname}:${port}${isTurbopack? ' with turbopack' : ''}`)
 
@@ -70,11 +74,14 @@ export class NuxtServiceLauncher {
                 isDev
             }
 
-            this.#server.on('message', (msg: unknown) => {
+            this.#server.on('message', async (msg: unknown) => {
                 if (msg && typeof msg === 'object') {
                     if ('nextWorkerReady' in msg && msg.nextWorkerReady && this.#server) {
                         this.#server.send({ nextWorkerOptions })
                     } else if ('nextServerReady' in msg && msg.nextServerReady && !resolved) {
+                        if (shouldPrefetch) {
+                            await this.doPrefetch(wdioBaseURL, this.#options.prefetch)
+                        }
                         resolved = true
                         resolve()
                     }
@@ -88,13 +95,27 @@ export class NuxtServiceLauncher {
             })
         })
 
-        process.env.WDIO_BASE_URL = `http://${this.#options.hostname}:${port}`
+        process.env.WDIO_BASE_URL = wdioBaseURL
     }
 
     public onComplete () {
         if (this.#server) {
             log.info('Stop Next.js dev server')
             this.#server.kill()
+        }
+    }
+
+    private async doPrefetch (baseURL: string, paths: string[]) {
+        for (const path of paths) {
+            const url = new URL(path, baseURL).href
+            log.info(`Prefetch: ${url}`)
+            await this.prefetchURL(url)
+        }
+    }
+    private async prefetchURL(url: string) {
+        const result = await fetch(url)
+        if (!result.ok) {
+            throw new Error(`Failed to prefetch ${path}`)
         }
     }
 }
