@@ -26,7 +26,6 @@ on:
           - "no"
 
 env:
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   NPM_CONFIG_PROVENANCE: true
 
 jobs:
@@ -47,12 +46,7 @@ jobs:
         with:
             node-version-file: '.nvmrc'
             cache: 'pnpm'
-
-      - name: NPM Setup
-        run: |
-          npm set registry "https://registry.npmjs.org/"
-          npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
-          npm whoami
+            registry-url: 'https://registry.npmjs.org'
 
       - name: Git Setup
         run: |
