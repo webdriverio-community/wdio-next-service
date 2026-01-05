@@ -22,7 +22,7 @@ importers:
         version: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       webdriverio:
         specifier: ^8.0.0 || ^9.0.0
-        version: 9.22.0(bare-buffer@3.0.1)
+        version: 9.23.0(bare-buffer@3.0.1)
     devDependencies:
       '@types/mocha':
         specifier: ^10.0.10
@@ -32,16 +32,16 @@ importers:
         version: 25.0.3
       '@wdio/cli':
         specifier: ^9.22.0
-        version: 9.22.0(@types/node@25.0.3)(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)
+        version: 9.23.0(@types/node@25.0.3)(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)
       '@wdio/eslint':
         specifier: ^0.1.3
         version: 0.1.3(@typescript-eslint/eslint-plugin@8.51.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@wdio/local-runner':
         specifier: ^9.22.0
-        version: 9.22.0(@wdio/globals@9.17.0)(bare-buffer@3.0.1)(webdriverio@9.22.0(bare-buffer@3.0.1))
+        version: 9.23.0(@wdio/globals@9.23.0)(bare-buffer@3.0.1)(webdriverio@9.23.0(bare-buffer@3.0.1))
       '@wdio/mocha-framework':
         specifier: ^9.22.0
-        version: 9.22.0(bare-buffer@3.0.1)
+        version: 9.23.0(bare-buffer@3.0.1)
       '@wdio/spec-reporter':
         specifier: ^9.20.0
         version: 9.20.0
@@ -56,7 +56,7 @@ importers:
         version: 62.0.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-wdio:
         specifier: ^9.16.2
-        version: 9.16.2
+        version: 9.23.0
       globals:
         specifier: ^16.5.0
         version: 16.5.0
@@ -728,8 +728,8 @@ packages:
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
 
-  '@sinclair/typebox@0.34.45':
-    resolution: {integrity: sha512-qJcFVfCa5jxBFSuv7S5WYbA8XdeCPmhnaVVfX/2Y6L8WYg8sk3XY2+6W0zH+3mq1Cz+YC7Ki66HfqX6IHAwnkg==}
+  '@sinclair/typebox@0.34.46':
+    resolution: {integrity: sha512-kiW7CtS/NkdvTUjkjUJo7d5JsFfbJ14YjdhDk9KoEgK6nFjKNXZPrX0jfLA8ZlET4cFLHxOZ/0vFKOP+bOxIOQ==}
 
   '@sindresorhus/merge-streams@4.0.0':
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
@@ -931,13 +931,13 @@ packages:
   '@vitest/snapshot@4.0.16':
     resolution: {integrity: sha512-sf6NcrYhYBsSYefxnry+DR8n3UV4xWZwWxYbCJUt2YdvtqzSPR7VfGrY0zsv090DAbjFZsi7ZaMi1KnSRyK1XA==}
 
-  '@wdio/cli@9.22.0':
-    resolution: {integrity: sha512-vVl5IcyebbLhZBanyf4FDtOUacc45ODzI78dPFRVgXuJqjOMWhEGhZmUNPG+ApxmDbs0j5qi1wE8m7gct5NJkQ==}
+  '@wdio/cli@9.23.0':
+    resolution: {integrity: sha512-jVuyZ84Ino6akBlmf38/bc1Ji+DI3NoGvWATQXhKaDmmF7tAhSdlUXK3VV970GfVKvGe1ARPaGtTf8L2lbRDSw==}
     engines: {node: '>=18.20.0'}
     hasBin: true
 
-  '@wdio/config@9.22.0':
-    resolution: {integrity: sha512-SQsTSZowEI+whPlwPLsX9ICr6BiG39NLmzED7OWfaowribQ0XylRhoWodcRu6cB/ZCzminZajBUG5XgarNWnRw==}
+  '@wdio/config@9.23.0':
+    resolution: {integrity: sha512-hhtngUG2uCxYmScSEor+k22EVlsTW3ARXgke8NPVeQA4p1+GC2CvRZi4P7nmhRTZubgLrENYYsveFcYR+1UXhQ==}
     engines: {node: '>=18.20.0'}
 
   '@wdio/dot-reporter@9.20.0':
@@ -947,23 +947,23 @@ packages:
   '@wdio/eslint@0.1.3':
     resolution: {integrity: sha512-4NErobvTiuUXZnXCsB5e1lBZq5699hL4UW6q8lZcRWghcMEc7LHhcNeaEyt1DzdkLMcuA0OBLwbNRcXSjQRNig==}
 
-  '@wdio/globals@9.17.0':
-    resolution: {integrity: sha512-i38o7wlipLllNrk2hzdDfAmk6nrqm3lR2MtAgWgtHbwznZAKkB84KpkNFfmUXw5Kg3iP1zKlSjwZpKqenuLc+Q==}
+  '@wdio/globals@9.23.0':
+    resolution: {integrity: sha512-OmwPKV8c5ecLqo+EkytN7oUeYfNmRI4uOXGIR1ybP7AK5Zz+l9R0dGfoadEuwi1aZXAL0vwuhtq3p0OL3dfqHQ==}
     engines: {node: '>=18.20.0'}
     peerDependencies:
       expect-webdriverio: ^5.3.4
       webdriverio: ^9.0.0
 
-  '@wdio/local-runner@9.22.0':
-    resolution: {integrity: sha512-pAJdKOwjg8VrNG9MogxctqdBSz3ISGsi9h0tBxbvH4VPQYQEwxN98QOlwPojxLgHU29BmtTwZsobN3f++O8Wcw==}
+  '@wdio/local-runner@9.23.0':
+    resolution: {integrity: sha512-kBWIqBDbCAJuxENl4t1qiCf8mivHN++cNdgsmlkP8nG7KJ8ebCseqsBHTrvx/YAqRPZIBD50cN6xsB6MZTmUfg==}
     engines: {node: '>=18.20.0'}
 
   '@wdio/logger@9.18.0':
     resolution: {integrity: sha512-HdzDrRs+ywAqbXGKqe1i/bLtCv47plz4TvsHFH3j729OooT5VH38ctFn5aLXgECmiAKDkmH/A6kOq2Zh5DIxww==}
     engines: {node: '>=18.20.0'}
 
-  '@wdio/mocha-framework@9.22.0':
-    resolution: {integrity: sha512-HqEt1+eeaI+x5bgvZ3aEiWXEO/gOgA9B9xfCXXzQFiC3JxzK36nbSk+nO35gL5svi+RMuk2gxw5IqTXjSRSjrA==}
+  '@wdio/mocha-framework@9.23.0':
+    resolution: {integrity: sha512-1Lg8MCLNvs4a1pwz6WzWDPS44mxdAJQCw19DqWuEI8b406HtdIcPoc6sBsqkXVW8aNxMkqvTf87aMeLBFFbaYA==}
     engines: {node: '>=18.20.0'}
 
   '@wdio/protocols@9.16.2':
@@ -977,8 +977,8 @@ packages:
     resolution: {integrity: sha512-HjKJzm8o0MCcnwGVGprzaCAyau0OB8mWHwH1ZI/ka+z1nmVBr2tsr7H53SdHsGIhAg/XuZObobqdzeVF63ApeA==}
     engines: {node: '>=18.20.0'}
 
-  '@wdio/runner@9.22.0':
-    resolution: {integrity: sha512-izvzBYlAVTx5ekkEHnHEkNjm1BXDZkd4+rPMrLtvWRli4k3pRNGACpJzRRHkjFYEhbDoFg1SmwsCAOK08X6Qbw==}
+  '@wdio/runner@9.23.0':
+    resolution: {integrity: sha512-a2afdICcEzzMjSPCwY3g9Hl2kWXXjBFyWv5DxvjaJOmQygnKzz9olFOrpVotgLKXE9ZLuJ4EP98or69sFIeLBg==}
     engines: {node: '>=18.20.0'}
     peerDependencies:
       expect-webdriverio: ^5.3.4
@@ -992,16 +992,16 @@ packages:
     resolution: {integrity: sha512-zMmAtse2UMCSOW76mvK3OejauAdcFGuKopNRH7crI0gwKTZtvV89yXWRziz9cVXpFgfmJCjf9edxKFWdhuF5yw==}
     engines: {node: '>=18.20.0'}
 
-  '@wdio/utils@9.22.0':
-    resolution: {integrity: sha512-5j2nn2bBjj41wxXsVT43sUMOKR0qiKNDRG1UcKQ6NkfsWFObSehMAS0a9ZZu//+ooTxRkwHjvLdQrXIrPnTLzg==}
+  '@wdio/utils@9.23.0':
+    resolution: {integrity: sha512-WhXuVSxEvPw/i34bL1aCHAOi+4g29kRkIMyBShNSxH+Shxh2G91RJYsXm4IAiPMGcC4H6G8T2VcbZ32qnGPm5Q==}
     engines: {node: '>=18.20.0'}
 
   '@wdio/xvfb@9.20.0':
     resolution: {integrity: sha512-shllZH9CsLiZqTXkqBTJrwi6k/ajBE7/78fQgvafMUIQU1Hpb2RdsmydKfPFZ5NDoA+LNm67PD2cPkvkXy4pSw==}
     engines: {node: '>=18'}
 
-  '@zip.js/zip.js@2.8.11':
-    resolution: {integrity: sha512-0fztsk/0ryJ+2PPr9EyXS5/Co7OK8q3zY/xOoozEWaUsL5x+C0cyZ4YyMuUffOO2Dx/rAdq4JMPqW0VUtm+vzA==}
+  '@zip.js/zip.js@2.8.13':
+    resolution: {integrity: sha512-UcWZ5i9Hlspgo+8q8PUPd9TmDYM62eqfb/0iZ5SF3bqfX/uFUmV660MC9Lsvon7/sidzesXLQlIf8/mbDUf6gQ==}
     engines: {bun: '>=0.7.0', deno: '>=1.0.0', node: '>=18.0.0'}
 
   abort-controller@3.0.0:
@@ -1617,8 +1617,8 @@ packages:
     resolution: {integrity: sha512-sB7vSrDnFa4ezWQk9nZ/n0FdpdUuC6R1EOrlU3DL+bovcNFK28rqu2emmAUjujYEJTWIgQGqgVVWUZXMnc8iWg==}
     engines: {node: '>=14.0.0'}
 
-  edgedriver@6.2.0:
-    resolution: {integrity: sha512-49G6010o0VYXUMNi5OvxqE9O/kazs0qmJVqHcSHNvp1VfojO21Kb/NaJN40uy11yrlGHRp7y6a372xoCnShzlA==}
+  edgedriver@6.3.0:
+    resolution: {integrity: sha512-ggEQL+oEyIcM4nP2QC3AtCQ04o4kDNefRM3hja0odvlPSnsaxiruMxEZ93v3gDCKWYW6BXUr51PPradb+3nffw==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -1806,8 +1806,8 @@ packages:
       '@typescript-eslint/eslint-plugin':
         optional: true
 
-  eslint-plugin-wdio@9.16.2:
-    resolution: {integrity: sha512-qkqsPgxN70OnUPWMjmzJbSbvm2+Q087JIGss53/OFI4Y46xKlV5VLhLiYealaAibAiXmnfWKd0tERjZAzVL87A==}
+  eslint-plugin-wdio@9.23.0:
+    resolution: {integrity: sha512-8tcpupzp2Qmv+uSfhzeHi42LVA9PyjkpMBPclSIkPxBfXpj4fMrejwAHu1PROh1OmJN1VQcGQUTWvSzyRcV2vA==}
     engines: {node: '>=18.20.0'}
 
   eslint-scope@7.2.2:
@@ -3305,8 +3305,8 @@ packages:
   rxjs@7.8.2:
     resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
 
-  safaridriver@1.0.0:
-    resolution: {integrity: sha512-J92IFbskyo7OYB3Dt4aTdyhag1GlInrfbPCmMteb7aBK7PwlnGz1HI0+oyNN97j7pV9DqUAVoVgkNRMrfY47mQ==}
+  safaridriver@1.0.1:
+    resolution: {integrity: sha512-jkg4434cYgtrIF2AeY/X0Wmd2W73cK5qIEFE3hDrrQenJH/2SDJIXGvPAigfvQTcE9+H31zkiNHbUqcihEiMRA==}
     engines: {node: '>=18.0.0'}
 
   safe-array-concat@1.1.2:
@@ -3718,8 +3718,12 @@ packages:
     resolution: {integrity: sha512-hU/10obOIu62MGYjdskASR3CUAiYaFTtC9Pa6vHyf//mAipSvSQg6od2CnJswq7fvzNS3zJhxoRkgNVaHurWKw==}
     engines: {node: '>=18.17'}
 
-  undici@7.16.0:
-    resolution: {integrity: sha512-QEg3HPMll0o3t2ourKwOeUAZ159Kn9mx5pnzHRQO8+Wixmh88YdZRiIwat0iNzNNXn0yoEtXJqFpyW7eM8BV7g==}
+  undici@6.23.0:
+    resolution: {integrity: sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==}
+    engines: {node: '>=18.17'}
+
+  undici@7.18.0:
+    resolution: {integrity: sha512-CfPufgPFHCYu0W4h1NiKW9+tNJ39o3kWm7Cm29ET1enSJx+AERfz7A2wAr26aY0SZbYzZlTBQtcHy15o60VZfQ==}
     engines: {node: '>=20.18.1'}
 
   unicorn-magic@0.3.0:
@@ -3766,12 +3770,12 @@ packages:
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
 
-  webdriver@9.22.0:
-    resolution: {integrity: sha512-jf4irPhIJAssrF3mqUrBZGZnzjRfM86Q24ePUOgFKWI04LtdvRsnc9SsWU05mrN/a6pTJzGps6GsvLpNhvcalg==}
+  webdriver@9.23.0:
+    resolution: {integrity: sha512-XkZOhjoBOY7maKI3BhDF2rNiDne4wBD6Gw6VUnt4X9b7j9NtfzcCrThBlT0hnA8W77bWNtMRCSpw9Ajy08HqKg==}
     engines: {node: '>=18.20.0'}
 
-  webdriverio@9.22.0:
-    resolution: {integrity: sha512-sqXZG11hRM9KjqioVPcXCPLIcdJprNM9e+B6JlyacN6ImgC64MQbgs0vtCDLVsSIX7vg+x771lrS/VxXxqlkJw==}
+  webdriverio@9.23.0:
+    resolution: {integrity: sha512-Y5y4jpwHvuduUfup+gXTuCU6AROn/k6qOba3st0laFluKHY+q5SHOpQAJdS8acYLwE8caDQ2dXJhmXyxuJrm0Q==}
     engines: {node: '>=18.20.0'}
     peerDependencies:
       puppeteer-core: '>=22.x || <=24.x'
@@ -4264,7 +4268,7 @@ snapshots:
 
   '@jest/schemas@30.0.5':
     dependencies:
-      '@sinclair/typebox': 0.34.45
+      '@sinclair/typebox': 0.34.46
 
   '@jest/types@30.2.0':
     dependencies:
@@ -4443,7 +4447,7 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@sinclair/typebox@0.34.45': {}
+  '@sinclair/typebox@0.34.46': {}
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
@@ -4691,15 +4695,15 @@ snapshots:
       magic-string: 0.30.21
       pathe: 2.0.3
 
-  '@wdio/cli@9.22.0(@types/node@25.0.3)(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)':
+  '@wdio/cli@9.23.0(@types/node@25.0.3)(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)':
     dependencies:
       '@vitest/snapshot': 2.1.9
-      '@wdio/config': 9.22.0(bare-buffer@3.0.1)
-      '@wdio/globals': 9.17.0(expect-webdriverio@5.6.1)(webdriverio@9.22.0(bare-buffer@3.0.1))
+      '@wdio/config': 9.23.0(bare-buffer@3.0.1)
+      '@wdio/globals': 9.23.0(expect-webdriverio@5.6.1)(webdriverio@9.23.0(bare-buffer@3.0.1))
       '@wdio/logger': 9.18.0
       '@wdio/protocols': 9.16.2
       '@wdio/types': 9.20.0
-      '@wdio/utils': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/utils': 9.23.0(bare-buffer@3.0.1)
       async-exit-hook: 2.0.1
       chalk: 5.6.2
       chokidar: 4.0.3
@@ -4711,7 +4715,7 @@ snapshots:
       lodash.union: 4.6.0
       read-pkg-up: 10.1.0
       tsx: 4.21.0
-      webdriverio: 9.22.0(bare-buffer@3.0.1)
+      webdriverio: 9.23.0(bare-buffer@3.0.1)
       yargs: 17.7.2
     transitivePeerDependencies:
       - '@types/node'
@@ -4724,11 +4728,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@wdio/config@9.22.0(bare-buffer@3.0.1)':
+  '@wdio/config@9.23.0(bare-buffer@3.0.1)':
     dependencies:
       '@wdio/logger': 9.18.0
       '@wdio/types': 9.20.0
-      '@wdio/utils': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/utils': 9.23.0(bare-buffer@3.0.1)
       deepmerge-ts: 7.1.5
       glob: 10.5.0
       import-meta-resolve: 4.2.0
@@ -4751,7 +4755,7 @@ snapshots:
       '@typescript-eslint/utils': 8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-unused-imports: 4.3.0(@typescript-eslint/eslint-plugin@8.51.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))
-      eslint-plugin-wdio: 9.16.2
+      eslint-plugin-wdio: 9.23.0
       globals: 16.5.0
       typescript-eslint: 8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
     transitivePeerDependencies:
@@ -4760,21 +4764,21 @@ snapshots:
       - supports-color
       - typescript
 
-  '@wdio/globals@9.17.0(expect-webdriverio@5.6.1)(webdriverio@9.22.0(bare-buffer@3.0.1))':
+  '@wdio/globals@9.23.0(expect-webdriverio@5.6.1)(webdriverio@9.23.0(bare-buffer@3.0.1))':
     dependencies:
-      expect-webdriverio: 5.6.1(@wdio/globals@9.17.0)(@wdio/logger@9.18.0)(webdriverio@9.22.0(bare-buffer@3.0.1))
-      webdriverio: 9.22.0(bare-buffer@3.0.1)
+      expect-webdriverio: 5.6.1(@wdio/globals@9.23.0)(@wdio/logger@9.18.0)(webdriverio@9.23.0(bare-buffer@3.0.1))
+      webdriverio: 9.23.0(bare-buffer@3.0.1)
 
-  '@wdio/local-runner@9.22.0(@wdio/globals@9.17.0)(bare-buffer@3.0.1)(webdriverio@9.22.0(bare-buffer@3.0.1))':
+  '@wdio/local-runner@9.23.0(@wdio/globals@9.23.0)(bare-buffer@3.0.1)(webdriverio@9.23.0(bare-buffer@3.0.1))':
     dependencies:
       '@types/node': 20.19.27
       '@wdio/logger': 9.18.0
       '@wdio/repl': 9.16.2
-      '@wdio/runner': 9.22.0(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)(webdriverio@9.22.0(bare-buffer@3.0.1))
+      '@wdio/runner': 9.23.0(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)(webdriverio@9.23.0(bare-buffer@3.0.1))
       '@wdio/types': 9.20.0
       '@wdio/xvfb': 9.20.0
       exit-hook: 4.0.0
-      expect-webdriverio: 5.6.1(@wdio/globals@9.17.0)(@wdio/logger@9.18.0)(webdriverio@9.22.0(bare-buffer@3.0.1))
+      expect-webdriverio: 5.6.1(@wdio/globals@9.23.0)(@wdio/logger@9.18.0)(webdriverio@9.23.0(bare-buffer@3.0.1))
       split2: 4.2.0
       stream-buffers: 3.0.3
     transitivePeerDependencies:
@@ -4795,13 +4799,13 @@ snapshots:
       safe-regex2: 5.0.0
       strip-ansi: 7.1.0
 
-  '@wdio/mocha-framework@9.22.0(bare-buffer@3.0.1)':
+  '@wdio/mocha-framework@9.23.0(bare-buffer@3.0.1)':
     dependencies:
       '@types/mocha': 10.0.10
       '@types/node': 20.19.27
       '@wdio/logger': 9.18.0
       '@wdio/types': 9.20.0
-      '@wdio/utils': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/utils': 9.23.0(bare-buffer@3.0.1)
       mocha: 10.8.2
     transitivePeerDependencies:
       - bare-abort-controller
@@ -4823,19 +4827,19 @@ snapshots:
       diff: 8.0.2
       object-inspect: 1.13.4
 
-  '@wdio/runner@9.22.0(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)(webdriverio@9.22.0(bare-buffer@3.0.1))':
+  '@wdio/runner@9.23.0(bare-buffer@3.0.1)(expect-webdriverio@5.6.1)(webdriverio@9.23.0(bare-buffer@3.0.1))':
     dependencies:
       '@types/node': 20.19.27
-      '@wdio/config': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/config': 9.23.0(bare-buffer@3.0.1)
       '@wdio/dot-reporter': 9.20.0
-      '@wdio/globals': 9.17.0(expect-webdriverio@5.6.1)(webdriverio@9.22.0(bare-buffer@3.0.1))
+      '@wdio/globals': 9.23.0(expect-webdriverio@5.6.1)(webdriverio@9.23.0(bare-buffer@3.0.1))
       '@wdio/logger': 9.18.0
       '@wdio/types': 9.20.0
-      '@wdio/utils': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/utils': 9.23.0(bare-buffer@3.0.1)
       deepmerge-ts: 7.1.5
-      expect-webdriverio: 5.6.1(@wdio/globals@9.17.0)(@wdio/logger@9.18.0)(webdriverio@9.22.0(bare-buffer@3.0.1))
-      webdriver: 9.22.0(bare-buffer@3.0.1)
-      webdriverio: 9.22.0(bare-buffer@3.0.1)
+      expect-webdriverio: 5.6.1(@wdio/globals@9.23.0)(@wdio/logger@9.18.0)(webdriverio@9.23.0(bare-buffer@3.0.1))
+      webdriver: 9.23.0(bare-buffer@3.0.1)
+      webdriverio: 9.23.0(bare-buffer@3.0.1)
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -4856,20 +4860,20 @@ snapshots:
     dependencies:
       '@types/node': 20.19.27
 
-  '@wdio/utils@9.22.0(bare-buffer@3.0.1)':
+  '@wdio/utils@9.23.0(bare-buffer@3.0.1)':
     dependencies:
       '@puppeteer/browsers': 2.11.0(bare-buffer@3.0.1)
       '@wdio/logger': 9.18.0
       '@wdio/types': 9.20.0
       decamelize: 6.0.1
       deepmerge-ts: 7.1.5
-      edgedriver: 6.2.0
+      edgedriver: 6.3.0
       geckodriver: 6.1.0
       get-port: 7.1.0
       import-meta-resolve: 4.2.0
       locate-app: 2.5.0
       mitt: 3.0.1
-      safaridriver: 1.0.0
+      safaridriver: 1.0.1
       split2: 4.2.0
       wait-port: 1.1.0
     transitivePeerDependencies:
@@ -4882,7 +4886,7 @@ snapshots:
     dependencies:
       '@wdio/logger': 9.18.0
 
-  '@zip.js/zip.js@2.8.11': {}
+  '@zip.js/zip.js@2.8.13': {}
 
   abort-controller@3.0.0:
     dependencies:
@@ -5229,7 +5233,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.16.0
+      undici: 7.18.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -5517,10 +5521,10 @@ snapshots:
       '@types/which': 2.0.2
       which: 2.0.2
 
-  edgedriver@6.2.0:
+  edgedriver@6.3.0:
     dependencies:
       '@wdio/logger': 9.18.0
-      '@zip.js/zip.js': 2.8.11
+      '@zip.js/zip.js': 2.8.13
       decamelize: 6.0.1
       edge-paths: 3.0.5
       fast-xml-parser: 5.3.3
@@ -5711,8 +5715,8 @@ snapshots:
       '@typescript-eslint/parser': 7.2.0(eslint@8.57.1)(typescript@5.9.3)
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1))(eslint@8.57.1)
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
+      eslint-import-resolver-typescript: 3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
       eslint-plugin-react: 7.37.2(eslint@8.57.1)
       eslint-plugin-react-hooks: 5.0.0-canary-7118f5dd7-20230705(eslint@8.57.1)
@@ -5731,37 +5735,47 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1))(eslint@8.57.1):
+  eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.3(supports-color@8.1.1)
       enhanced-resolve: 5.17.1
       eslint: 8.57.1
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
       fast-glob: 3.3.3
       get-tsconfig: 4.13.0
       is-bun-module: 1.2.1
       is-glob: 4.0.3
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1)
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-node
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 7.2.0(eslint@8.57.1)(typescript@5.9.3)
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1))(eslint@8.57.1)
+      eslint-import-resolver-typescript: 3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@8.57.1):
+    dependencies:
+      debug: 3.2.7
+    optionalDependencies:
+      '@typescript-eslint/parser': 8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+      eslint: 8.57.1
+      eslint-import-resolver-node: 0.3.9
+    transitivePeerDependencies:
+      - supports-color
+
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -5772,7 +5786,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@8.57.1)
       hasown: 2.0.2
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -5784,7 +5798,7 @@ snapshots:
       string.prototype.trimend: 1.0.8
       tsconfig-paths: 3.15.0
     optionalDependencies:
-      '@typescript-eslint/parser': 7.2.0(eslint@8.57.1)(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -5863,7 +5877,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.51.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
 
-  eslint-plugin-wdio@9.16.2: {}
+  eslint-plugin-wdio@9.23.0: {}
 
   eslint-scope@7.2.2:
     dependencies:
@@ -6030,15 +6044,15 @@ snapshots:
 
   exit-hook@4.0.0: {}
 
-  expect-webdriverio@5.6.1(@wdio/globals@9.17.0)(@wdio/logger@9.18.0)(webdriverio@9.22.0(bare-buffer@3.0.1)):
+  expect-webdriverio@5.6.1(@wdio/globals@9.23.0)(@wdio/logger@9.18.0)(webdriverio@9.23.0(bare-buffer@3.0.1)):
     dependencies:
       '@vitest/snapshot': 4.0.16
-      '@wdio/globals': 9.17.0(expect-webdriverio@5.6.1)(webdriverio@9.22.0(bare-buffer@3.0.1))
+      '@wdio/globals': 9.23.0(expect-webdriverio@5.6.1)(webdriverio@9.23.0(bare-buffer@3.0.1))
       '@wdio/logger': 9.18.0
       deep-eql: 5.0.2
       expect: 30.2.0
       jest-matcher-utils: 30.2.0
-      webdriverio: 9.22.0(bare-buffer@3.0.1)
+      webdriverio: 9.23.0(bare-buffer@3.0.1)
 
   expect@30.2.0:
     dependencies:
@@ -6180,7 +6194,7 @@ snapshots:
   geckodriver@6.1.0:
     dependencies:
       '@wdio/logger': 9.18.0
-      '@zip.js/zip.js': 2.8.11
+      '@zip.js/zip.js': 2.8.13
       decamelize: 6.0.1
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -7507,7 +7521,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  safaridriver@1.0.0: {}
+  safaridriver@1.0.1: {}
 
   safe-array-concat@1.1.2:
     dependencies:
@@ -7995,7 +8009,9 @@ snapshots:
 
   undici@6.22.0: {}
 
-  undici@7.16.0: {}
+  undici@6.23.0: {}
+
+  undici@7.18.0: {}
 
   unicorn-magic@0.3.0: {}
 
@@ -8039,18 +8055,18 @@ snapshots:
       defaults: 1.0.4
     optional: true
 
-  webdriver@9.22.0(bare-buffer@3.0.1):
+  webdriver@9.23.0(bare-buffer@3.0.1):
     dependencies:
       '@types/node': 20.19.27
       '@types/ws': 8.18.1
-      '@wdio/config': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/config': 9.23.0(bare-buffer@3.0.1)
       '@wdio/logger': 9.18.0
       '@wdio/protocols': 9.16.2
       '@wdio/types': 9.20.0
-      '@wdio/utils': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/utils': 9.23.0(bare-buffer@3.0.1)
       deepmerge-ts: 7.1.5
       https-proxy-agent: 7.0.6
-      undici: 6.22.0
+      undici: 6.23.0
       ws: 8.18.3
     transitivePeerDependencies:
       - bare-abort-controller
@@ -8060,16 +8076,16 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  webdriverio@9.22.0(bare-buffer@3.0.1):
+  webdriverio@9.23.0(bare-buffer@3.0.1):
     dependencies:
       '@types/node': 20.19.27
       '@types/sinonjs__fake-timers': 8.1.5
-      '@wdio/config': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/config': 9.23.0(bare-buffer@3.0.1)
       '@wdio/logger': 9.18.0
       '@wdio/protocols': 9.16.2
       '@wdio/repl': 9.16.2
       '@wdio/types': 9.20.0
-      '@wdio/utils': 9.22.0(bare-buffer@3.0.1)
+      '@wdio/utils': 9.23.0(bare-buffer@3.0.1)
       archiver: 7.0.1
       aria-query: 5.3.2
       cheerio: 1.1.2
@@ -8086,7 +8102,7 @@ snapshots:
       rgb2hex: 0.2.5
       serialize-error: 12.0.0
       urlpattern-polyfill: 10.1.0
-      webdriver: 9.22.0(bare-buffer@3.0.1)
+      webdriver: 9.23.0(bare-buffer@3.0.1)
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
