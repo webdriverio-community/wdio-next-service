@@ -6,6 +6,11 @@
 
 # WDIO Next.js Service [![Tests](https://github.com/webdriverio-community/wdio-next-service/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/webdriverio-community/wdio-next-service/actions/workflows/test.yml)
 
+> [!IMPORTANT]
+> **This repository does not support WebdriverIO v10.** It stays in maintenance mode for WebdriverIO v9 only.
+>
+> It gets no new features. Only critical fixes for WebdriverIO v9 are possible.
+
 This service helps you to launch your application when using [Next.js](https://nextjs.org/). It is a tiny wrapper around the `next dev` command that automatically starts the Next.js dev-server using your `next.conf.js` before launching the test.
 
 ## Installation
